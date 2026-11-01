@@ -1,0 +1,26 @@
+{
+  "name": "node-mongodb-boiler",
+  "version": "1.0.0",
+  "description": "This app is made using Node JS and MongoDB.",
+  "repository": {
+    "type": "git",
+    "url": "y"
+  },
+  "license": "ISC",
+  "author": "Areeb Ahmad",
+  "type": "commonjs",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon server.js",
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "dotenv": "^18.0.9",
+    "express": "^5.3.0",
+    "mongoose": "^9.11.4"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}
